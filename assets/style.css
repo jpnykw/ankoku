@@ -1,0 +1,21 @@
+.blink {
+  display: inline-block;
+  font-size: 80px;
+  color: #ACB6E5;
+  background: -webkit-linear-gradient(0deg, #40E0D0, #FF8C00, #FF0080);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.anko {
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: block;
+  height: 500px;
+  margin-top: 30px;
+}
+
+.scroll {
+  font-size: 30px;
+  width: 470px;
+}
