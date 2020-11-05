@@ -8,14 +8,33 @@
 }
 
 .anko {
+  background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
   display: block;
-  height: 500px;
+  height: 300px;
   margin-top: 30px;
+  text-align: center;
 }
 
 .scroll {
   font-size: 30px;
   width: 470px;
 }
+
+.contents {
+  transform: translateX(-50%);
+  position: absolute;
+  left: 50%;
+}
+
+footer {
+  transform: translateX(-50%);
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  margin-bottom: 10px;
+  text-align: center;
+  font-family: Arial;
+}
+
